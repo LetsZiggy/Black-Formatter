@@ -1,0 +1,6 @@
+[
+	{
+		"caption": "Black Formatter: Format this file",
+		"command": "format_black",
+	},
+]
