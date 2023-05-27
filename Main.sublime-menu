@@ -1,0 +1,94 @@
+[
+	{
+		"id": "tools",
+		"children": [
+			{
+				"id": "blackformatter_tools",
+				"caption": "Black Formatter",
+				"children": [
+					{
+						"caption": "Format This File",
+						"command": "format_black",
+					},
+				],
+			},
+		],
+	},
+	{
+		"id": "preferences",
+		"children": [
+			{
+				"id": "package-settings",
+				"children": [
+					{
+						"caption": "Black Formatter",
+						"children": [
+							{
+								"caption": "Settings",
+								"command": "edit_settings",
+								"args": {
+									"base_file": "${packages}/Black-Formatter/Black-Formatter.sublime-settings",
+									"default": "// Settings in here override those in \"Black-Formatter/Black-Formatter.sublime-settings\"\n{\n\t$0\n}\n",
+								},
+							},
+							{
+								"caption": "-",
+							},
+							{
+								"caption": "Key Bindings – Default",
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/Black-Formatter/Default (OSX).sublime-keymap",
+									"platform": "OSX",
+								},
+							},
+							{
+								"caption": "Key Bindings – Default",
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/Black-Formatter/Default (Linux).sublime-keymap",
+									"platform": "Linux",
+								},
+							},
+							{
+								"caption": "Key Bindings – Default",
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/Black-Formatter/Default (Windows).sublime-keymap",
+									"platform": "Windows",
+								},
+							},
+							{
+								"caption": "Key Bindings – User",
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/User/Default (OSX).sublime-keymap",
+									"platform": "OSX",
+								},
+							},
+							{
+								"caption": "Key Bindings – User",
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/User/Default (Linux).sublime-keymap",
+									"platform": "Linux",
+								},
+							},
+							{
+								"caption": "Key Bindings – User",
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/User/Default (Windows).sublime-keymap",
+									"platform": "Windows",
+								},
+							},
+							{
+								"caption": "-",
+							},
+						],
+					},
+				],
+			},
+		],
+	},
+]

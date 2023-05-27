@@ -1,0 +1,18 @@
+{
+	"$schema": "sublime://packagecontrol.io/schemas/repository",
+	"schema_version": "4.0.0",
+	"packages": [
+		{
+			"name": "Black-Formatter",
+			"details": "https://github.com/LetsZiggy/Black-Formatter",
+			"issues": "https://github.com/LetsZiggy/Black-Formatter/issues",
+			"readme": "https://raw.githubusercontent.com/LetsZiggy/Black-Formatter/main/README.md",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		}
+	]
+}
