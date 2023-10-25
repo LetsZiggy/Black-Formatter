@@ -27,17 +27,19 @@
 		"word_wrap": true,
 
 		/* Black-Formatter */
-		"Black-Formatter": {
-			"format_on_save": true,
-			"config_path": "${project_path}/pyproject.toml",
-		},
+		// "Black-Formatter": {
+		// 	"format_on_save": true,
+		// 	"config_path": "${project_path}/pyproject.toml",
+		// },
 
 		/* LSP */
-		// "lsp_format_on_save": true,
+		"lsp_format_on_save": true,
 		"lsp_code_actions_on_save": {
+			"source.organizeImports": true,
+			"source.fixAll": true,
 			/* "source.fixAll.json": true, */
-			"source.organizeImports.ruff": true,
-			"source.fixAll.ruff": true,
+			// "source.organizeImports.ruff": true,
+			// "source.fixAll.ruff": true,
 		},
 
 		"LSP": {
@@ -57,6 +59,7 @@
 				"initializationOptions": {
 					"settings": {
 						"lint.args": [ "--config", "${project_path}/pyproject.toml" ],
+						"format.args": [ "--config", "${project_path}/pyproject.toml" ],
 					},
 				},
 			},

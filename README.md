@@ -1,12 +1,17 @@
-# Black-Formatter for Sublime Text
+# Depreciated
+*[ruff v0.1.2](https://github.com/astral-sh/ruff) has a built-in and configurable Black drop-in replacement.*
+
+---
+
+### Black-Formatter for Sublime Text
 
 *Please note the plugin hasn't been submitted to [packagecontrol.io](https://packagecontrol.io/). Thus has to be installed manually.*
 
 <br>
 
-### Installation
+#### Installation
 
-#### Installing Plugin
+##### Installing Plugin
 
 - `Package Control: Add Repository` Method (Recommended)
 	1. Open `Command Palette` (Default: `ctrl+shift+p`)
@@ -27,22 +32,22 @@
 
 ---
 
-### Commands
+#### Commands
 
-#### Command palette:
+##### Command palette:
 
 - `Black Formatter: Format this file`
 
-#### Shortcut key:
+##### Shortcut key:
 
 * Linux/Windows: `Ctrl + Shift + ;`
 * Mac: `Cmd + Shift + ;`
 
 ---
 
-### Usage
+#### Usage
 
-#### Using Default Settings ({ format_on_save: false })
+##### Using Default Settings ({ format_on_save: false })
 
 1. Save current changes
 	- Formatting will only be applied to the saved file and _**not the current buffer**_
@@ -50,13 +55,13 @@
 
 ---
 
-### Configuring Settings
+#### Configuring Settings
 
-#### To access and modify settings file
+##### To access and modify settings file
 
 Go to `Preferences -> Package Settings -> Black-Formatter -> Settings`
 
-#### To override settings per project basis
+##### To override settings per project basis
 
 To override global plugin configuration for a specific project, add a settings object with a `Black-Formatter` key in your `.sublime-project`. This file is accessible via `Project -> Edit Project`.
 
@@ -76,7 +81,7 @@ To override global plugin configuration for a specific project, add a settings o
 }
 ```
 
-#### Default settings
+##### Default settings
 
 ```javascript
 {
