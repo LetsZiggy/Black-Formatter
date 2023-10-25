@@ -46,10 +46,12 @@
 		"word_wrap": true,
 
 		/* Black-Formatter */
+		/*
 		"Black-Formatter": {
 			"format_on_save": true,
 			"config_path": "${project_path}/pyproject.toml",
 		},
+		/* */
 
 		/* LSP */
 		"lsp_format_on_save": true,
